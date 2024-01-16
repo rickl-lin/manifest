@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+  <remote name="mygit" fetch="https://github.com/rickl-lin" />
+  <remote name="private" fetch="http://172.18.255.51:1080/rack-manager" />
+
+  <default remote="mygit" sync-j="4" revision="main"/>
+    
+  <project path="ansible-playbook" name="ansible-playbook" />
+  <project path="test-repo2" name="test-repo2" />
+  <project remote="private" path="build-images" name="build-image" />
+</manifest>
