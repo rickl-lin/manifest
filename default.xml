@@ -1,9 +1,10 @@
-<?xml version=”1.0" encoding=”UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
+
 <manifest>
-  <remote name=”origin” fetch=”https://github.com/rickl-lin” />
+  <remote name="origin" fetch="https://github.com/rickl-lin" />
     
-  <default remote=”origin” sync-j=4 revision=”main”/>
+  <default remote="origin" sync-j=4 revision="main"/>
     
-  <project path=”ansible-playbook” name=”ansible_playbook” />
-  <project path=”test-repo2” name=”test2” />
+  <project path="ansible-playbook" name="ansible_playbook" />
+  <project path="test-repo2" name="test2" />
 </manifest>
