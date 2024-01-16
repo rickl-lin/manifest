@@ -8,5 +8,5 @@
     
   <project path="ansible-playbook" name="ansible-playbook" />
   <project path="test-repo2" name="test-repo2" />
-  <project name="private" path="build-images" name="buildImage" />
+  <project remote="private" path="build-images" name="buildImage" />
 </manifest>
