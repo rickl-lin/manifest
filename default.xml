@@ -5,6 +5,6 @@
     
   <default remote="origin" sync-j="4" revision="main"/>
     
-  <project path="ansible-playbook" name="ansible_playbook" />
-  <project path="test-repo2" name="test2" />
+  <project path="ansible-playbook" name="ansible-playbook" />
+  <project path="test-repo2" name="test-repo2" />
 </manifest>
