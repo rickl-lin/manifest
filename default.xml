@@ -6,5 +6,5 @@
   <default remote="mygit" sync-j="4" revision="main"/>
     
   <project path="ansible-playbook" name="ansible-playbook" />
-  <project path="test-repo2" name="test-repo2" />
+  <project path="test-repo2" name="test-repo2" revision="develop" />
 </manifest>
